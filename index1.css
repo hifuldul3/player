@@ -1,0 +1,69 @@
+body{
+   background-image:url(back.jpg);
+    object-fit: cover;
+
+
+}
+
+.word h1{
+    text-align: center;
+    color: rgb(159, 214, 77);
+    font-size: 50px;
+ 
+
+}
+.Music{
+    
+    text-align: center;
+    background-color: black;
+    width: 350px;
+    height: 500px;
+       border-radius: 20px;
+}
+.Music img{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    
+   
+    border-radius: 10px;
+}
+
+.Music button{
+    
+    padding: 10px;
+    border-radius: 50%;
+    color:white;
+    background-color: rgb(24, 20, 20);
+    border: none;
+    align-items: 30px;
+    margin: 20 0 px;
+    width: 55px;
+    height: 55px;
+    gap :20px;
+    
+
+}
+.Music h2 {
+    color: beige;
+}
+.Music p{
+    color: beige;
+}
+#prev{
+    margin-right: 20px;
+}
+#next{
+  margin-left: 20px;
+}
+#pro{
+    flex: 1;
+    width: 220px;
+}
+button:hover{
+    background-color: rgb(92, 101, 101);
+}
+#pause{
+    background-color: rgb(71, 166, 71);
+}
